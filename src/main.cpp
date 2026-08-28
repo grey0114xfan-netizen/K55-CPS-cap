@@ -228,7 +228,7 @@ class $modify(CappedPlayLayer, PlayLayer) {
         PlayLayer::levelComplete();
 
         if (cappedThisAttempt) {
-            Notification::create("CPS capped", NotificationIcon::Info)->show();
+          
             cappedThisAttempt = false;
         }
     }
